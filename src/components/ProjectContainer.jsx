@@ -2,9 +2,10 @@ import { useState } from "react";
 import Navigation from './Navigation';
 import About from './pages/About';
 import Footer from './pages/Footer';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
+// import Thankyou from './pages/Thankyou';
 import '../../public/css/style.css'
 
 export default function ProjectContainer() {
@@ -14,10 +15,12 @@ export default function ProjectContainer() {
         switch(currentPage) {
             case 'About':
                 return <About />;
-            case 'Contact':
-                return <Contact />;
+            // case 'Contact':
+            //     return <Contact />;
             case 'Portfolio':
                 return <Portfolio />;
+            // case 'Thankyou':
+            //     return <Thankyou />;
             default:
                 return <Resume />;
         }
