@@ -1,6 +1,15 @@
 export default function Portfolio() {
 	return (
 		<div style={{ display: 'flex', justifyContent: 'space-between' }}>
+	<div className="card" style={{ width: '18rem' }}>
+        <img src="/images/WidgetWizard.png" className="card-img-top" alt="WidgetWizard" />
+        <div className="card-body">
+          <h5 className="card-title">WidgetWizard</h5>
+          <p className="card-text">Fetching data from the OMDB API, search for your favorite movies and create reviews with an authorized account!</p>
+          <a href="https://tranquil-tor-75275-57652b10176e.herokuapp.com/" className="card-link">Website</a>
+          <a href="https://github.com/Popiuy/WidgetWizard" className="card-link">GitHub</a>
+        </div>
+    </div>
       <div className="card" style={{ width: '18rem' }}>
         <img src="/images/Reel-Reviews.png" className="card-img-top" alt="Reel Reviews" />
         <div className="card-body">
