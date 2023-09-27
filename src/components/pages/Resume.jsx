@@ -2,7 +2,7 @@ export default function Resume() {
     return(
         <div>
             <button className="btn btn-info mt-3 mb-4">
-                <a href = "Payne_Ryan_Resume.pdf" className="h4 text-primary" download = "file">  
+                <a href = "Payne_Ryan_Resume.pdf" className="h4 text-primary" download = "Payne_Ryan_Resume.pdf">  
                 <b> Download Resume </b>  
                 </a>  
             </button>

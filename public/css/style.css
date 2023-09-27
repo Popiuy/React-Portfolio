@@ -1,0 +1,18 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-item {
+    color: rgb(208, 230, 255);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+div.card {
+    background-color: rgb(208, 230, 255);
+    border: black 1px solid;
+}
+
+.project-container {
+    background-color: rgb(208, 230, 255);
+}
