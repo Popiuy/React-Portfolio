@@ -25,8 +25,11 @@ export default function ProjectContainer() {
 
     return (
         <div>
+            {/* <Header/> */}
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-            <main className="mx-3">{renderPage()}</main>
+            <main className="mx-3 main-color">
+                {renderPage()}
+            </main>
             {/* <Footer/> */}
         </div>
     );

@@ -1,3 +1,4 @@
+// eslint-disable-next-line react/prop-types
 function Navigation({ currentPage, handlePageChange }) {
     return (
       <ul className="nav justify-content-center">

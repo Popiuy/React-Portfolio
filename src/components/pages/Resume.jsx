@@ -1,29 +1,56 @@
 export default function Resume() {
     return(
         <div>
-            <div className="accordion" id="accordionExample">
-            <div className="accordion-item">
-            <h2 className="accordion-header">
-                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Coding Skills
-                </button>
-            </h2>
-            <div id="collapseOne" className="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div className="accordion-body">
-                    <pre>
-                    - HTML/CSS/JavaScript
-                    - Web APIs
-                    - Node.js 
-                    - Express.js 
-                    - React.js
-                    - MySQL 
-                    - NoSQL 
-                    - MVC
-                    </pre>
-                </div>
-            </div>
-            </div>
-        </div>
+            <button className="btn btn-info mt-3 mb-4">
+                <a href = "Payne_Ryan_Resume.pdf" className="h4 text-primary" download = "file">  
+                <b> Download Resume </b>  
+                </a>  
+            </button>
+
+            <ul className="list-group mb-5">
+            <li className="list-group-item list-group-item-primary" aria-current="true">Code-Related Skills</li>
+            <li className="list-group-item">HTML/CSS/JavaScript</li>
+            <li className="list-group-item">Web APIs</li>
+            <li className="list-group-item">Node.js</li>
+            <li className="list-group-item">Express.js</li>
+            <li className="list-group-item">React.js and React Hooks</li>
+            <li className="list-group-item">MySQL</li>
+            <li className="list-group-item">NoSQL</li>
+            <li className="list-group-item">MVC</li>
+            <li className="list-group-item">MERN</li>
+            <li className="list-group-item">JSX</li>
+            <li className="list-group-item">MERN</li>
+            <li className="list-group-item">MongoDB</li>
+            <li className="list-group-item">Mongoose ODM</li>
+            <li className="list-group-item">Sequelize ORM</li>
+            <li className="list-group-item">Webpack</li>
+            <li className="list-group-item">bcrypt</li>
+            <li className="list-group-item">Heroku</li>
+            <li className="list-group-item">Serverside Templating</li>
+            <li className="list-group-item">Insomnia/ Postman</li>
+            </ul>
+
+            <ul className="list-group mb-5">
+            <li className="list-group-item list-group-item-primary" aria-current="true">Technical Skills</li>
+            <li className="list-group-item">Front-End Development</li>
+            <li className="list-group-item">Back-End Development</li>
+            <li className="list-group-item">Product Development</li>
+            <li className="list-group-item">Wireframing</li>
+            <li className="list-group-item">Presentation</li>
+            </ul>
+
+            <ul className="list-group">
+            <li className="list-group-item list-group-item-primary" aria-current="true">Soft Skills</li>
+            <li className="list-group-item">Team Building</li>
+            <li className="list-group-item">Problem Solving </li>
+            <li className="list-group-item">Time Management</li>
+            <li className="list-group-item">Openness to Criticism</li>
+            <li className="list-group-item">Stress Management</li>
+            <li className="list-group-item">Attention to Detail</li>
+            <li className="list-group-item">Teamwork</li>
+            <li className="list-group-item">Communication</li>
+            <li className="list-group-item">Patience</li>
+            </ul>
       </div>
     )
 }
